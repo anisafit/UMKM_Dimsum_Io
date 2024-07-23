@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./foto/logodimsum.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="contact_us.css">
+    <link rel="stylesheet" href="testimoni.css">
+    
+    <title>Dimsum.io</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+           <img src="./foto/logodimsum.jpg" alt="Company Logo">
+           <h1>Dimsum.io</h1>
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="product.html">Product</a></li>
+            <li class="nav-item"><a href="testimoni.html">Testimoni</a></li>
+            <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+           </ul>
+         </nav>
+         </div>
+         <section class="headline">
+            <div class="hero">
+                <h1>Dimsum.io</h1>
+                <p>When curiosity meet hunger</p>
+            </div>
+         </section>
+         <div class="container" id="part_2">    
+            <div class="text_biodata">
+                <h2>SEJARAH</h2>
+                <article>
+                    Dimsum.io adalah sebuah inovasi di dunia kuliner yang mengusung konsep fusion food, 
+                    didirikan di kota Medan pada tanggal 7 September 2022. Didirikan oleh sekelompok 
+                    pengusaha muda dengan latar belakang yang beragam, Dimsum.io bertujuan untuk 
+                    menghadirkan sesuatu yang baru dan berbeda di tengah dinamika industri makanan yang 
+                    semakin berkembang. Dengan tagline "When Curiosity Meets Hunger," Dimsum.io 
+                    menggabungkan keingintahuan dan kelezatan dalam setiap hidangan yang disajikan, menarik 
+                    perhatian konsumen yang selalu mencari pengalaman kuliner unik dan menarik. <br>    
+                    
+                    Tujuan utama Dimsum.io adalah untuk meningkatkan variasi produk dengan menambah 
+                    variasi saus dan isian dimsum, guna memenuhi kebutuhan dan keinginan konsumen yang 
+                    beragam serta menarik lebih banyak pelanggan. Selain itu, Dimsum.io bertujuan 
+                    menyesuaikan rasa dengan preferensi lokal melalui pengembangan resep yang 
+                    menggabungkan keotentikan dimsum dan kuah tomyam dengan cita rasa yang sesuai dengan 
+                    selera masyarakat setempat. Dimsum.io juga berkomitmen untuk mempertahankan kualitas 
+                    produk dengan menjaga standar tinggi pada setiap variasi saus dan isian dimsum melalui proses 
+                    produksi yang ketat dan pemilihan bahan baku terbaik.
+                </article>
+                <h2>Visi & Misi</h2> 
+                <article>
+                    <h3>Visi: </h3>
+                    Kami ingin menjadi pelopor dalam memasak dan menjual dimsum yang memiliki rasa dan 
+                    aroma khas, dengan fokus pada kualitas dan inovasi dalam setiap hidangan. Dimsum.io 
+                    berkomitmen untuk menghadirkan perpaduan cita rasa antara dimsum otentik dengan kuah 
+                    pedas, gurih, dan asam seperti kuah tomyam, menciptakan pengalaman kuliner yang unik 
+                    dan memuaskan bagi setiap pelanggan.
+                </article>
+                <article>
+                    <h3>Misi: </h3>
+                    Kami menciptakan dimsum yang otentik dengan perpaduan kuah tomyam yang khas, 
+                    menjaga standar harga yang terjangkau dan kualitas yang konsisten. Kami menyediakan 
+                    saus cabai khusus yang memungkinkan pelanggan untuk mempersonalisasi tingkat 
+                    kepedasan sesuai selera. Selain itu, kami berkomitmen untuk menghadirkan proses 
+                    pemesanan yang efisien dan mudah, memastikan setiap pelanggan mendapatkan layanan 
+                    terbaik dan kepuasan maksimal.
+                </article>
+
+                <div class="contact_me">
+                    <a href="contact_us.html"><button>Contact Us</button></a>
+                </div>
+
+                <aside>
+                    <div class="owner_title">
+                        <h3>Owner: </h3> 
+                            <h4>Annisa, Reny, Zahra, Zahrotun, 21 Tahun</h4>
+                    </div>
+
+                    <img class="owner_foto" src="foto/Ownerdimsum.jpg" alt="biodata">
+
+                    <div class="admin_title">
+                        <h3>Admin: </h3> 
+                            <h4>Annisa, Reny, Zahra, Zahrotun, 21 Tahun</h4>
+                    </div>
+
+                    <img class="admin_foto" src="foto/Ownerdimsum.jpg" alt="biodata">
+                </aside>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- batas akhir part 2 -->
+       </div>
+
+       <!-- footer -->
+    <footer class="footer_home">
+        <div class="center_items">      
+            <p>Copyright 2024 © By <span>Dimsum.io</span></p>
+            <br>
+        </div>
+    </footer>
+    <!-- batas akhir footer -->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $("#search-icon").click(function() {
+        $(".nav").toggleClass("search");
+        $(".nav").toggleClass("no-search");
+        $(".search-input").toggleClass("search-active");
+      });
+      
+      $('.menu-toggle').click(function(){
+         $(".nav").toggleClass("mobile-nav");
+         $(this).toggleClass("is-active");
+      });
+</script>
+</html>
